@@ -10,7 +10,6 @@ namespace ObjektinioND
     {
         static void Main(string[] args)
         {
-            Random random = new Random();
             List<Preke> prekiuListas = new List<Preke>();
 
             listoPildymasObjektais(100, prekiuListas);
