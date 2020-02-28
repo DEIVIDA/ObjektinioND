@@ -11,6 +11,17 @@ namespace ObjektinioND
         public int Kaina { get; set; }
         public int Svoris { get; set; }
         public string Pavadinimas { get; set; }
-        Ismatavimai Ismatavimai = new Ismatavimai();
+        public Ismatavimai PrIsmatavimai;
+
+        public Preke()
+        {
+            PrIsmatavimai = new Ismatavimai();
+        }
+        public Preke(string pavadinimas, int kaina)
+        {
+            this.Pavadinimas = pavadinimas;
+            this.Kaina = kaina;
+            PrIsmatavimai = new Ismatavimai();
+        }
     }
 }

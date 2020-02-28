@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ObjektinioND
 {
-    class LaisvalaikioPreke
+    class LaisvalaikioPreke : Preke
     {
+        public string Hobis { get; set; }
+        public LaisvalaikioPreke(string pavadinimas, int kaina) : base (pavadinimas, kaina)
+        {
+        }
     }
 }
