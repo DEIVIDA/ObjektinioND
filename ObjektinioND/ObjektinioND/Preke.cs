@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ObjektinioND
 {
-    class Preke
+    public abstract class Preke
     {
+        public int Kaina { get; set; }
+        public int Svoris { get; set; }
+        public string Pavadinimas { get; set; }
+        Ismatavimai Ismatavimai = new Ismatavimai();
     }
 }

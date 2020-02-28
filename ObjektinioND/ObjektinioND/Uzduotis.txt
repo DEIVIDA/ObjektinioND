@@ -1,0 +1,12 @@
+﻿Sukuriat klase ismatavimai, turi Ilgis ir t.t.
+Susikuriam abstrakcia klase Prekes, kuri turi Kaina, 
+			Svori ir "ismatavimus", Pavadinimas
+Sukuriam maistoPreke, kuri uti unikalius propercius
+Sukuriam cheminisPreke, kuri uti unikalius propercius
+ir papildomai dvi klases.
+
+Padarote random generatoriu ir susdedate 100 skirtingu objetu 
+		nuo skirtingu klasiu i lista, kuriu kaina yra random. 
+		Ir random pavadinimas
+
+Surasti brangiausio objekto pavadinima.
